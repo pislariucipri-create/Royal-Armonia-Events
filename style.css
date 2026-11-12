@@ -260,3 +260,47 @@ footer p {
     .info-box { padding: 15px; margin-bottom: 15px; }
     footer { margin-top: 20px; }
 }
+
+.made-by {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.made-by a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.made-by a i {
+    color: #d4af37;
+    font-size: 10px;
+}
+
+.made-by a span {
+    font-weight: 600;
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #aa771c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.made-by a:hover,
+.made-by a:active {
+    border-color: rgba(212, 175, 55, 0.7);
+    background: rgba(212, 175, 55, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.15);
+}
